@@ -18,13 +18,13 @@ These claims apply **only** to independently written .NET 10 LTS models. They ar
 
 | ID | Model | Checks | Status and evidence |
 | --- | --- | --- | --- |
-| MOD-01 | [Observation memory](../samples/independent-models/ObservationMemory.cs) | 9 | **Pending new-repository CI** — [workflow](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/workflows/showcase-model-checks.yml) |
-| MOD-02 | [Objective arbitration](../samples/independent-models/ObjectiveArbiter.cs) | 10 | **Pending new-repository CI** — same workflow |
-| MOD-03 | [Character lifecycle](../samples/independent-models/CharacterLifecycle.cs) | 7 | **Pending new-repository CI** — same workflow |
-| MOD-04 | [Range steering](../samples/independent-models/RangeSteering.cs) | 7 | **Pending new-repository CI** — same workflow |
-| MOD-05 | [Shard custody](../samples/independent-models/ShardCustody.cs) | 10 | **Pending new-repository CI** — same workflow |
+| MOD-01 | [Observation memory](../samples/independent-models/ObservationMemory.cs) | 9 | **Automated model checks passed** — [GitHub Actions run #40261815750](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/runs/40261815750) |
+| MOD-02 | [Objective arbitration](../samples/independent-models/ObjectiveArbiter.cs) | 10 | **Automated model checks passed** — same run |
+| MOD-03 | [Character lifecycle](../samples/independent-models/CharacterLifecycle.cs) | 7 | **Automated model checks passed** — same run |
+| MOD-04 | [Range steering](../samples/independent-models/RangeSteering.cs) | 7 | **Automated model checks passed** — same run |
+| MOD-05 | [Shard custody](../samples/independent-models/ShardCustody.cs) | 10 | **Automated model checks passed** — same run |
 
-**Rebuild verification:** The independent C# examples retain the same 43-check suite. A successful run of the new repository's .NET 10 workflow must be recorded here before publication. Historical workflow URLs and commit IDs belong to the old repository and are intentionally not reused. Neither Unity production compilation nor gameplay is exercised by these checks.
+**Clean-history verification:** All **43/43** model checks passed on a GitHub-hosted Ubuntu runner using .NET SDK 10.0.14, [GitHub Actions run #40261815750](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/runs/40261815750), commit `1d945f51bffa89fd9f25d7a081fefcb66eff7b46`; the 16-document Markdown/path audit passed as well. This result belongs exclusively to the independent replacement repository. Historical old-repository workflow URLs are intentionally not reused. Neither production Unity compilation nor gameplay was exercised.
 
 ## Planned evidence, not claimed
 
