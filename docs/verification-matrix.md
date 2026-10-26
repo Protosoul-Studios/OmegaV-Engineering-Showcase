@@ -6,13 +6,13 @@
 
 | Layer | Method and revision | Actual outcome | What the outcome means |
 | --- | --- | --- | --- |
-| Independent C# contract models (clean-history rebuild) | .NET 10 LTS Release run at `1d945f51bffa89fd9f25d7a081fefcb66eff7b46` | **43/43 checks passed** in new repository CI | Independent model contracts compiled and passed; Unity production was not executed |
+| Independent C# contract models | .NET 10 LTS Release run at `acf7d8097c9f3182a8faade98cd5ff15467fde7d` | **43/43 checks passed** in new repository CI | Independent model contracts compiled and passed; Unity production was not executed |
 | Production source inspection | Read identified Unity C# modules at `82a4e9142287dcf4a8c4e3b6e751aea747b95e93` | **Source inspected** | Described ownership, fields, branches and events exist in reviewed source |
 | Fresh Unity Editor compilation | Not executed during showcase preparation | **Pending / not run** | Cannot claim Unity compile or EditMode/PlayMode test pass |
 | Fresh gameplay scene behavior | Not independently executed or recorded | **Pending / not observed** | Cannot claim perception, movement, death or shard scenarios passed in game |
 | Dedicated hardware/device testing | Not performed | **Pending / not tested** | No platform performance, frame rate or device certification claim |
 
-**Current independently verified result:** [GitHub Actions run #40261815750](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/runs/40261815750) at `1d945f51bffa89fd9f25d7a081fefcb66eff7b46`, .NET SDK 10.0.14, reported `PASS 01` through `PASS 43` and `ALL 43 INDEPENDENT MODEL CHECKS PASSED`. The repository guard also passed all 16 Markdown files, links, and distribution paths. Older CI runs and SHAs remain with the original repository rather than being presented as current evidence. There is no external NuGet test framework, Unity Editor run, or production gameplay test in this workflow.
+**Current independently verified result:** [GitHub Actions run #40262196307](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/runs/40262196307) at `acf7d8097c9f3182a8faade98cd5ff15467fde7d`, .NET SDK 10.0.14, reported `PASS 01` through `PASS 43` and `ALL 43 INDEPENDENT MODEL CHECKS PASSED`. The repository guard also passed all 16 Markdown files, links, and distribution paths. Earlier archive CI runs are not presented as verification of this repository. There is no external NuGet test framework, Unity Editor run, or production gameplay test in this workflow.
 
 ## Executable check groups
 
