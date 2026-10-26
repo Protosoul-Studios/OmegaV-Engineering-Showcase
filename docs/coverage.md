@@ -18,13 +18,13 @@ These claims apply **only** to independently written .NET 10 LTS models. They ar
 
 | ID | Model | Checks | Status and evidence |
 | --- | --- | --- | --- |
-| MOD-01 | [Observation memory](../samples/independent-models/ObservationMemory.cs) | 9 | **Automated model checks passed** — [GitHub Actions run #40261815750](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/runs/40261815750) |
+| MOD-01 | [Observation memory](../samples/independent-models/ObservationMemory.cs) | 9 | **Automated model checks passed** — [GitHub Actions run #40262196307](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/runs/40262196307) |
 | MOD-02 | [Objective arbitration](../samples/independent-models/ObjectiveArbiter.cs) | 10 | **Automated model checks passed** — same run |
 | MOD-03 | [Character lifecycle](../samples/independent-models/CharacterLifecycle.cs) | 7 | **Automated model checks passed** — same run |
 | MOD-04 | [Range steering](../samples/independent-models/RangeSteering.cs) | 7 | **Automated model checks passed** — same run |
 | MOD-05 | [Shard custody](../samples/independent-models/ShardCustody.cs) | 10 | **Automated model checks passed** — same run |
 
-**Clean-history verification:** All **43/43** model checks passed on a GitHub-hosted Ubuntu runner using .NET SDK 10.0.14, [GitHub Actions run #40261815750](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/runs/40261815750), commit `1d945f51bffa89fd9f25d7a081fefcb66eff7b46`; the 16-document Markdown/path audit passed as well. This result belongs exclusively to the independent replacement repository. Historical old-repository workflow URLs are intentionally not reused. Neither production Unity compilation nor gameplay was exercised.
+**Current model verification:** All **43/43** model checks passed on a GitHub-hosted Ubuntu runner using .NET SDK 10.0.14, [GitHub Actions run #40262196307](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/runs/40262196307), commit `acf7d8097c9f3182a8faade98cd5ff15467fde7d`; the 16-document Markdown/path audit passed as well. This verification belongs to the current official showcase repository; prior archive workflow URLs are not reused. Neither production Unity compilation nor gameplay was exercised.
 
 ## Planned evidence, not claimed
 

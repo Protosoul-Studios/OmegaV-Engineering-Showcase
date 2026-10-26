@@ -2,7 +2,7 @@
 
 [Portfolio](../README.md) · [Verification matrix](../docs/verification-matrix.md) · [Executable checks](../samples/independent-models/Program.cs)
 
-**Clean-history rebuild verification (.NET 10 LTS):** All **43/43 independent model checks passed** in [GitHub Actions run #40261815750](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/runs/40261815750) at `1d945f51bffa89fd9f25d7a081fefcb66eff7b46`, using .NET SDK 10.0.14; the same run passed the 16-document repository link/file audit. These checks exercise only standalone models, **not the Unity production game**.
+**Recorded automated result (.NET 10 LTS):** All **43/43 independent model checks passed** in [GitHub Actions run #40262196307](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/runs/40262196307) at `acf7d8097c9f3182a8faade98cd5ff15467fde7d`, using .NET SDK 10.0.14; the same run passed the 16-document repository link/file audit. These checks exercise only standalone models, **not the Unity production game**.
 
 Reproduce:
 

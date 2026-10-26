@@ -2,7 +2,7 @@
 
 **Unity/C# gameplay systems and autonomous-character engineering — Protosoul Studios**
 
-[![Independent C# model checks](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/workflows/showcase-model-checks.yml/badge.svg?branch=main)](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/workflows/showcase-model-checks.yml)
+[![Independent C# model checks](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/workflows/showcase-model-checks.yml/badge.svg?branch=main)](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/workflows/showcase-model-checks.yml)
 
 *Badge status covers the independent C# portfolio models and repository link checks, not the Unity production game's tests.*
 
@@ -26,7 +26,7 @@ Each case study describes the **production responsibilities inspected**, the **s
 
 ## Executable C# demonstration
 
-The independent examples have no Unity, ML-Agents or NuGet package dependency. The independently authored C# models have **43 executable contract checks**, all passed under .NET 10 LTS in [GitHub Actions run #40261815750](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase-Rebuild/actions/runs/40261815750) at commit `1d945f51bffa89fd9f25d7a081fefcb66eff7b46`. These are independently verified portfolio-model checks, **not** production Unity tests. The [verification matrix](docs/verification-matrix.md) separates this independent model evidence from production Unity claims. Run them yourself using .NET SDK 10:
+The independent examples have no Unity, ML-Agents or NuGet package dependency. The independently authored C# models have **43 executable contract checks**, all passed under .NET 10 LTS in [GitHub Actions run #40262196307](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/runs/40262196307) at commit `acf7d8097c9f3182a8faade98cd5ff15467fde7d`. These are independently verified portfolio-model checks, **not** production Unity tests. The [verification matrix](docs/verification-matrix.md) separates this independent model evidence from production Unity claims. Run them yourself using .NET SDK 10:
 
 ```bash
 dotnet run --project samples/independent-models/IndependentModels.csproj --configuration Release
