@@ -1,0 +1,6 @@
+# Independently authored C# files are first-party portfolio examples, not vendored material.
+# Ensure GitHub Linguist counts them as C# even though they live in a samples folder.
+samples/independent-models/*.cs -linguist-documentation -linguist-vendored -linguist-generated linguist-detectable linguist-language=C#
+
+# The Python verifier is auxiliary repository tooling, not the showcased C# implementation.
+scripts/validate_showcase.py -linguist-detectable
