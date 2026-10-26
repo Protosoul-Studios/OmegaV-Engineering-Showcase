@@ -5,7 +5,7 @@
 - Reconstructed the approved five-case-study, five-model code-first portfolio in a separate private repository created with a README-only root commit.
 - Copied the approved **file contents**, not template history, production commits, original pull requests, or GitHub Actions runs.
 - Kept the independent C# model architecture, 43 checks, .NET 10 tooling, public-distribution safeguards, and all-rights-reserved policy.
-- The replacement independently passed all **43/43 C# checks** and the 16-file Markdown/path audit in [GitHub Actions run #40262196307](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/runs/40262196307) at `acf7d8097c9f3182a8faade98cd5ff15467fde7d` using .NET SDK 10.0.14, with no CI warnings or errors. The official repository name has been restored; publication remains subject to the owner's approval.
+- The replacement independently passed all **43/43 C# checks** and the 16-file Markdown/path audit in [GitHub Actions run #40262196307](https://github.com/Protosoul-Studios/OmegaV-Engineering-Showcase/actions/runs/40262196307) at `acf7d8097c9f3182a8faade98cd5ff15467fde7d` using .NET SDK 10.0.14, with no CI warnings or errors. Following owner approval, the clean-history replacement was published under the official repository name; the previous showcase is preserved privately as Archive 2.
 
 ## Maintenance — October 2026
 
